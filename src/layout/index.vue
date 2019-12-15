@@ -43,9 +43,10 @@
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
       <v-toolbar-title>{{ fullName }}</v-toolbar-title>
       <v-spacer></v-spacer>
-      <span v-for="button in buttons" :key="button.text">       
+      <span v-for="(button,i) in buttons" :key="button.text">       
         <v-btn dark text v-if="button.show" @click="onScroll(button.ref)">
           {{ button.text }}
+          <i v-if="i === buttons.length - 1" class="fab fa-github"></i>
         </v-btn>
       </span>
       <v-menu offset-y v-if="windowSize.x < 850 && windowSize.x > 450">
