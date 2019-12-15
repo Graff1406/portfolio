@@ -1,0 +1,156 @@
+{
+  "application":{
+    "fullName":{
+      "label":"Full name",
+      "text":"Avtandil Shainidze"
+    },
+    "email":{
+      "label":"email",
+      "text":"shainidze@gmail.com"
+    },
+    "year":{
+      "label":"Was born",
+      "text":"14 june 1986"
+    },
+    "civil":{
+      "label":"Civil status",
+      "text":"married"
+    },
+    "kids":{
+      "label":"Children",
+      "text":"daughter"
+    },
+    "education":{
+      "label":"Education",
+      "text":"builder, seamen, animal husbandry"
+    },
+    "languges":{
+      "label":"Languges",
+      "text":"Georgian, english, russian, ukrainian, javaScript - :)"
+    },
+    "citizen":{
+      "label":"Сitizen",
+      "text":"Ukraine"
+    },
+    "placeOfResidence":{
+      "label":"Place of residence",
+      "text":"I am living in Iceland from 2016 years to current time"
+    },
+    "hobby":{
+      "label":"Hobby",
+      "text":"Table tennis, fitness, reading books, making code"
+    }
+  }, 
+  "aboutMe": {
+    "title": "About Me",
+    "timeline":"Timeline skills",
+    "skills":[
+      {
+        "year":"2017",
+        "title":"HTML, CSS, Javascript, SASS, MySQL, jQuery",
+        "subtitle":"Addition technologies",
+        "text":"RedBeanPHP(ORM), AJAX, BEM methodology (CSS Block__Element--Modification)"
+      },
+      {
+        "year":"2018",
+        "title":"Node, Vue, Nuxt, MongoDB, Bootstrap, Vuetify",
+        "subtitle":"Addition technologies",
+        "text":"Express, Momgoose, Vue CLI, Vuex, VueRouter, Head, JSDoc, i18n, Axios, Vuelidate ect."
+      },
+      {
+        "year":"2019",
+        "title":"ReactJS, Next, React native, Typescript, GitHub",
+        "subtitle":"Addition technologies",
+        "text":"Redux, ReactRouter"
+      },
+      {
+        "year":"2020 (will be soon)",
+        "title":"Python",
+        "subtitle":"Addition technologies",
+        "text":"Django, GraphQL"
+      }
+    ],
+    "application":"My application",
+    "text":" I am very motivated to become a full stack developer. Only motivation generates deep within me powerful driving energy that leads to new knowledge and skills in Web technologies. I am an organized person, and this gave me the opportunity to independently learn programming languages such as HTML, CSS, Javascript, and Typescript. I have  desire to learn new things and to improve my skills I would like to delve into Javascript technology and studied Nodejs, Vue, Nuxt."
+  },
+  "components":{
+    "title":"My components",
+    "text":"The component approach today is one of the most important approaches to site-building. I also have my own set of components that I use in my projects if necessary. Here are some of them.",
+    "items":[
+      {
+        "path":"dialog",
+        "title":"Dialog with search field",
+        "text":"Pop-up with search box. Adapted for all kinds of devices.",
+        "btnShow":"explore code",
+        "img":"dialog"
+      },
+      {
+        "path":"notification",
+        "title":"Dialog of notifications",
+        "text":"Button and dialog of notifications. Adapted for all kinds of devices.",
+        "btnShow":"explore code",
+        "img":"notifications"
+      }
+    ]
+  },
+  "project":{
+    "title":"My project",
+    "text":"The project I have been during last half year. ",
+    "describtion":"The project \"PROFI\" is place, where anyone can find specialists to do the work he needs",
+    "used":{
+      "title":"Used",
+      "items":["Vue", "Nuxt", "API: PHP"]
+    }
+  },
+  "partnership":{
+    "title":"Partnership with me",
+    "text":"Ready for any cooperation option. I can realize many tasks and ideas that are in demand today in the web industry. I invite you to cooperation web studios large and small on mutually beneficial conditions. I devote my working time entirely to web development so our cooperation will be fruitful.",
+    "items":["100% official employment","part-time employment","work remotely from home (freelancer)"]
+  },
+  "customComponent":{
+    "dialog":{
+      "title":"My search component",
+      "text":"The component represents a modal window adapted for different devices. When the dialog window is called up, a search field appears. When you enter text, a hint appears in the form of keywords.",
+      "subtext":"Component uses",
+      "points":["Vue","Axios","I18n", "UI vuetify"]
+    },
+    "notification":{
+      "title":"My notifications component",
+      "text":"The component represents a modal window adapted for different devices. When the dialog window is called up, a search field appears. When you enter text, a hint appears in the form of keywords.",
+      "subtext":"Component uses",
+      "points":["Vue","Axios","I18n", "UI vuetify"]
+    }
+  },
+  "contacts":{
+    "title":"Contact with me",
+    "text":"Feel free to contact me. I am an open and sociable person. You can always contact me at any time.",
+    "numbers":[  
+      {
+        "title":"Address",
+        "text":"Iceland, Reykjavik"
+      },
+      {
+        "title":"Email",
+        "text":"shainidze@gmail.com"
+      },
+      {
+        "title":"Mobile",
+        "text":"+354 611 23 89"
+      },
+      {
+        "title":"WhatsApp",
+        "text":"+354 611 23 89"
+      },
+      {
+        "title":"LinkedIn",
+        "text":"Avtandil Shainidze",
+        "link":"https://www.linkedin.com/in/avtandil-shainidze-714533196/"
+      },
+      {
+        "title":"GitHub",
+        "text":"Portfolio Repositories",
+        "link":"https://github.com/Graff1406/my-portfolio"
+      }
+    ]
+  }
+}
